@@ -1,0 +1,114 @@
+@charset "utf-8";
+/*这种注释和css一致  并且会编译到css文件当中*/
+/*=========变量==========*/
+/* js var a = 10;*/
+/*
+必须以@开始定义变量
+不能以数组开头
+不能包含特殊字符
+*/
+/*/!*怎么使用*!/
+a:hover{
+  color: @wjsMainColor;
+//  font-size: @wjsMainColor;
+}
+.btn_register{
+  background: @wjsMainColor;
+  border-color: @wjsMainColor;
+}
+.wjs_icon_logo{
+  color: @wjsMainColor;
+}*/
+/*=======mixin 混入===========*/
+.width {
+  width: 50%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.bLeft {
+  border-left: 1px solid #ccc;
+}
+/*样式混入*/
+.w50FrBLeft {
+  width: 50%;
+  float: right;
+  border-left: 1px solid #ccc;
+}
+/*函数混入*/
+/*在less当中参数是有默认值*/
+/*参数定义和变量定义一致*/
+/*宽度60%左浮动红色左边边框*/
+.w60FlBred {
+  width: 100%;
+  float: left;
+  border-left: 1px solid red;
+}
+/*宽度100px右浮动黄色左边边框*/
+.useMixin {
+  width: 100px;
+  float: right;
+  border-left: 2px solid yellow;
+}
+/*mixin  混入*/
+/*写一个兼容主流浏览器的圆角混入函数  mixin*/
+/*需要100px宽度并且20px圆角的盒子*/
+.w100r20 {
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+/*====嵌套====*/
+.wjs_topBar {
+  border-bottom: 1px solid #ccc;
+  line-height: 40px;
+  text-align: center;
+  font-size: 12px;
+}
+.wjs_topBar > .container > .row > div {
+  height: 40px;
+}
+.wjs_topBar > .container > .row > div ~ div {
+  border-left: 1px solid #ccc;
+}
+.wjs_topBar .wjs_downApp {
+  position: relative;
+  display: block;
+  z-index: 9999;
+}
+.wjs_topBar .wjs_downApp img {
+  display: block;
+}
+.wjs_topBar .wjs_downApp:hover img {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  margin-left: -60px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.wjs_topBar .wjs_register {
+  font-size: 12px;
+  padding: 3px 12px;
+  background: #e92322;
+}
+.wjs_topBar .wjs_login {
+  font-size: 12px;
+  color: #333;
+}
+.wjs_topBar .wjs_login:hover {
+  text-decoration: none;
+}
+/*======运算和内置函数=====*/
+a {
+  width: 16.66666667%;
+  color: #800000;
+  /*我要一个比red量20%的颜色*/
+  background: #ff6666;
+}

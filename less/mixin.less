@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*=======mixin 混入===========*/
+
+//和js函数类似
+// var a = function(){} function a(age){}
+
+.width{
+  width: 50%;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.bLeft{
+  border-left: 1px solid #ccc;
+}
+/*样式混入*/
+.w50FrBLeft{
+  .width();
+  .fr();
+  .bLeft();
+}
+
+/*函数混入*/
+/*在less当中参数是有默认值*/
+/*参数定义和变量定义一致*/
+.widthFuc(@width:100%){
+  width: @width;
+}
+.floatFuc(@float:left){
+  float: @float;
+}
+.borderFuc(@color:red,@width:1px){
+  border-left: @width solid @color;
+}
+
+/*宽度60%左浮动红色左边边框*/
+.w60FlBred{
+  .widthFuc();
+  .floatFuc();
+  .borderFuc();
+}
+
+/*宽度100px右浮动黄色左边边框*/
+.useMixin{
+  .widthFuc(100px);
+  .floatFuc(right);
+  .borderFuc(yellow,2px);
+}
+/*mixin  混入*/
+
+/*写一个兼容主流浏览器的圆角混入函数  mixin*/
+.borderRadius(@width:10px){
+  border-radius: @width;
+  -webkit-border-radius: @width;
+  -ms-border-radius: @width;
+  -moz-border-radius: @width;
+  -o-border-radius: @width;
+}
+
+/*需要100px宽度并且20px圆角的盒子*/
+.w100r20{
+  .borderRadius(100px);
+}

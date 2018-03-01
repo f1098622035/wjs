@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/*这种注释和css一致  并且会编译到css文件当中*/
+
+//这个注释是不会编译到css文件当中
+
+
+/*=========变量==========*/
+/* js var a = 10;*/
+/*
+必须以@开始定义变量
+不能以数组开头
+不能包含特殊字符
+*/
+@wjsMainColor:#e92333;
+@width:100px;
+
+/*/!*怎么使用*!/
+a:hover{
+  color: @wjsMainColor;
+//  font-size: @wjsMainColor;
+}
+.btn_register{
+  background: @wjsMainColor;
+  border-color: @wjsMainColor;
+}
+.wjs_icon_logo{
+  color: @wjsMainColor;
+}*/

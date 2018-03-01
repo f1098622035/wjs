@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+@import "var";
+
+@import "mixin";
+
+@import "topBar";
+
+
+
+/*======运算和内置函数=====*/
+
+a{
+  width: 100/12*2%;
+  color: red/2;
+  /*我要一个比red量20%的颜色*/
+  background: lighten(red,20%);
+}
