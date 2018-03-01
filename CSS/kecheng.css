@@ -1,0 +1,68 @@
+body{background: #f5f5f5;}
+#mimas{width: 1200px;height: 2550px;margin: 0 auto;}
+.biaoti{height: 60px;line-height: 60px;}
+
+#mimas .box{width: 1200px;height: 303px;background: white;font-size: 15px;}
+#mimas .box .box_p1, .box_p2, .box_p3{	width: 1100px;
+										height: 100px;
+										margin: 0 auto;
+										border-bottom: 1px solid #999;
+										}
+
+#mimas .box .box_p1 a, .box_p2 a, .box_p3 a{	padding-left:10px;
+												padding-right: 10px;
+												height: 30px;
+												display:inline-block;
+												float: left;
+												margin-left: 20px;
+												line-height:30px;
+												margin-top:30px;
+												}
+#mimas .box .box_p2 a{margin-top:12px;}
+#mimas .box a:hover{background: red;color: white;cursor: pointer;}
+#mimas .box .mima_box_a1:hover{background:none;color: black;}
+#mimas .box .mima_box_a2{background:black;color: white;}
+#mimas .box .mima_box_a2:hover{background:black;color: white;}
+.b_p_a{margin-left: 50px;}
+ .box_p3{border: none;}
+ 
+ 
+#mimas .bos{width: 1200px;height: 1950px;}
+#mimas .bos .bos_one{	width: 290px;
+						height: 290px;
+						background: white;
+						font-size: 14px;
+						color: #333;
+						float: left;
+						margin-top:10px;
+						margin-bottom: 20px;
+						margin-left:9px;
+						}
+#mimas .bos .bos_two{width: 290px;height: 290px;}
+#mimas .bos .bos_where{width: 290px;height: 180px;background:blueviolet;overflow: hidden;}
+#mimas .bos .bos_from{margin-left: 20px;margin-top: 5px;}
+#mimas .bos .bos_two img{width: 290px;height: 180px;}
+
+#mimas .bow{width: 420px;height: 30px;float: right;}
+#mimas .bow span{	width: 50px;
+					height: 30px;
+					display: inline-block;
+					text-align: center;
+					background: white;
+					margin-left: 0px;
+					line-height: 30px;
+					border: 1px solid #999;
+					cursor: pointer;
+					}
+#mimas .bow span:hover{color: red;}
+#mimas .bow span:nth-child(2){background: #000;color: white;}					
+
+
+
+
+
+
+
+
+
+

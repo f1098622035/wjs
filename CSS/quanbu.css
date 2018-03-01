@@ -1,0 +1,46 @@
+
+
+/*                              底部和头部的共同样式														 */
+
+*{margin: 0;padding: 0; list-style: none;}
+#box{width: 100;height:55px;background: black; color: white;}
+#box a{text-decoration: none;color: white;}
+#box .box_tu1,#box ul{float: left;margin-left: 30px;}
+#box ul li{
+			float: left;
+			padding-left: 30px;
+			padding-right:30px;
+			height:55px;
+			font-size: 15px;
+			font-family: "微软雅黑";
+			text-align: center;
+			line-height: 55px;
+			}
+#box ul li:hover{background: #3f3f3f;}
+#box .box_li{background:#3f3f3f;}
+#box .box_tu2{float: right;margin-right: 50px;color: #e2e2e2;padding-top: 20px;cursor: pointer;}
+
+
+#dibu{width: 100%;height:280px;background: black; color: #8d8b8b;font-size: 13px;}
+#dibu ul{width: 10%;height: 260px;float: left;margin-left: 3%;text-align: center;}
+#dibu ul li{height: 30px;line-height: 30px; cursor: pointer;}
+#dibu ul li:hover{color: red;}
+.dibu_zi{font-weight: bold;color: white;margin-top: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

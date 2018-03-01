@@ -1,0 +1,22 @@
+
+#mima{width: 1200px;height: 4400px;margin: 0 auto;}
+.mima_p{height: 80px;line-height: 60px;font-size: 15px;}
+#mima .mima_top{width: 1200px;height: 240px;}
+#mima .mima_zhong{width: 1200px;height: 449px;background: url(../images/employ-guide.png) no-repeat;margin-top: 50px;}
+#mima .mima_bottom{width: 1200px;height: 3397px;background:url(../images/jiuye_bg.jpg) no-repeat;}
+#mima .mima_footr{width: 1200px;height: 123px;padding-top:80px;}
+#mima .mima_footr .mima_footr_p{ width: 200px;
+								 height: 50px;
+								 background: orangered;
+								 text-align: center;
+								 line-height: 50px;
+								 border-radius: 10px;
+								 margin: 0 auto;
+								 color: white;
+								 cursor: pointer;
+								 }
+#mima .mima_footr .mima_footr_p:hover{background: red;color: blue;}
+.mima_top a{width: 262px;height: 231px;display: inline;float: left;margin-left: 30px;margin-top: 9px;}
+.mima_top a:hover{box-shadow:0 -2px 10px 1px #333;transition: all 0.2s;}
+
+

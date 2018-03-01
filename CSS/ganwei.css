@@ -1,0 +1,33 @@
+body{background: #eee;}
+#mima{width: 1200px;height:1200px;background:white;margin: 0 auto;padding-top:20px;margin-bottom: 50px;}
+
+.biaoti{height: 80px;line-height: 60px;}
+
+#mima .mima_neirong{width: 1200px;height: 160px;border-bottom: 1px solid #c9c9c9;margin-top: 30px;}
+#mima .mima_neirong img{width: 240px;height: 140px;}
+#mima .mima_neirong .m_n_yi{width:200px;height: 200px;background:brown;}
+
+#mima .mima_neirong .mm_nr_one{width: 300px;height: 150px;text-align: center;float: left;}
+#mima .mima_neirong .mm_nr_two{width: 650px;height: 150px;float: left;}
+#mima .mima_neirong .mm_nr_where{	width: 100px;
+									height:40px;
+									background: black;
+									color: white;
+									float: left;
+									text-align: center;
+									line-height: 40px;
+									margin-top: 60px;
+									margin-left: 50px;
+									cursor: pointer;
+									font-size: 14px;
+									}
+#mima .mima_neirong .mm_nr_where:hover{background: red;color: white;}
+.mm_nr_two .m_n_t_yi, .m_n_t_er{font-size: 14px; color: #666;text-indent: 2em;}
+.mm_nr_two .m_n_t_yi span{width: 50px;height: 20px;background: #f1f1f1;padding: 5px;}
+.mm_nr_two .m_n_t_san{font-size: 14px}
+
+
+
+
+
+
